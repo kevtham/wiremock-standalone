@@ -1,0 +1,74 @@
+{
+  "school": {
+    "id": "12345",
+    "name": "Greenwood High School",
+    "address": {
+      "street": "123 Greenway Dr",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62704",
+      "country": "USA"
+    },
+    "contact": {
+      "phone": "+1-555-123-4567",
+      "email": "info@greenwoodhigh.edu",
+      "website": "http://www.greenwoodhigh.edu"
+    },
+    "principal": {
+      "name": "Dr. Emily Johnson",
+      "phone": "+1-555-987-6543",
+      "email": "principal@greenwoodhigh.edu"
+    },
+    "students": [
+      {
+        "id": "stu001",
+        "name": "Alice Smith",
+        "grade": "10",
+        "email": "alice.smith@student.greenwoodhigh.edu"
+      },
+      {
+        "id": "stu002",
+        "name": "Bob Brown",
+        "grade": "11",
+        "email": "bob.brown@student.greenwoodhigh.edu"
+      },
+      {
+        "id": "stu003",
+        "name": "Charlie Davis",
+        "grade": "12",
+        "email": "charlie.davis@student.greenwoodhigh.edu"
+      }
+    ],
+    "courses": [
+      {
+        "id": "course001",
+        "name": "Mathematics",
+        "teacher": "Ms. Linda Clark",
+        "schedule": "Mon-Fri, 9:00 AM - 10:30 AM"
+      },
+      {
+        "id": "course002",
+        "name": "Science",
+        "teacher": "Mr. James White",
+        "schedule": "Mon-Wed, 10:45 AM - 12:15 PM"
+      },
+      {
+        "id": "course003",
+        "name": "History",
+        "teacher": "Dr. Sarah Lee",
+        "schedule": "Tue-Thu, 1:00 PM - 2:30 PM"
+      }
+    ],
+    "facilities": [
+      "Library",
+      "Gymnasium",
+      "Cafeteria",
+      "Science Lab",
+      "Computer Lab"
+    ],
+    "enrollment": {
+      "total_students": 1200,
+      "total_teachers": 85
+    }
+  }
+}
